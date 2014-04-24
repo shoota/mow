@@ -12,11 +12,10 @@
   },
   "keywords": [
     "ATND",
-    "Commpass",
+    "connpass",
     "Doorkeeper",
     "Zusaar",
-    "API",
-    "client"
+    "API"
   ],
   "author": "shoota",
   "license": "MIT",
