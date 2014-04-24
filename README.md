@@ -11,7 +11,7 @@ Event APIs client library for node.js
 
 ## Request Parameter Mapping
 |param name|ATND|connpass|Zusaar|Doorkeeper|single-search function|
-|---|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |id|event_id|event_id|event_id|-|findById()|
 |||||||
 |||||||
