@@ -1,4 +1,4 @@
-mow
+mow [https://travis-ci.org/shoota/mow.svg?branch=master]("Travis")
 ===
 Event APIs client library for node.js
 
