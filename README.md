@@ -1,4 +1,4 @@
-mow [https://travis-ci.org/shoota/mow.svg?branch=master]("Travis")
+mow [![Build Status](https://travis-ci.org/shoota/mow.svg?branch=master)](https://travis-ci.org/shoota/mow)
 ===
 Event APIs client library for node.js
 
