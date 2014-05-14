@@ -2,7 +2,7 @@
   "name": "mow",
   "version": "0.0.0",
   "description": "Event APIs client library for node.js",
-  "main": "index.js",
+  "main": "mow.js",
   "scripts": {
     "test": "mocha"
   },
