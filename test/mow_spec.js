@@ -6,9 +6,9 @@ var should = require('should'),
 describe('about mow constructor',
     function(){
 
-        describe('arugment is required',
+        describe('required constructor arugment',
             function(){
-                it('shold not return mow object giving invalid arguments ',
+                it('shold return empty object giving invalid arguments ',
                     function() {
                         (new mow()).should.be.empty;
                         (new mow('')).should.be.empty;
@@ -16,12 +16,19 @@ describe('about mow constructor',
                     }
                 );
 
-                it('should create ATND Client with "ATND" string',
+                it('should have client when create with support API',
                     function() {
-                        var atnd = new mow('ATND');
-                        should.exist(atnd.client);
+
+                        var support_api = ['ATND', 'Doorkeeper', 'connpass', 'Zusaar'];
+
+                        support_api.forEach(function(api){
+                            var test_mow = new mow(api);
+                            should.exist(test_mow.client);
+                            test_mow.client.should.have.property('vendor', api);
+                        });
                     }
                 );
-            });
+            }
+        );
     }
 );

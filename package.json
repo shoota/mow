@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/shoota/mow",
   "dependencies": {
-    "request": "~2.34.0"
+    "request": "~2.34.0",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
     "should": "~3.3.1",
