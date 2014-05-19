@@ -3,12 +3,12 @@ var should = require('should'),
     mow = require('../lib/mow');
 
 
-describe('about mow constructor',
+describe('mow',
     function(){
 
-        describe('required constructor arugment',
+        describe('constructor require vendor string',
             function(){
-                it('shold return empty object giving invalid arguments ',
+                it('shold return empty object giving invalid argument ',
                     function() {
                         (new mow()).should.be.empty;
                         (new mow('')).should.be.empty;
@@ -16,7 +16,7 @@ describe('about mow constructor',
                     }
                 );
 
-                it('should have client when create with support API',
+                it('should have client when create with valid argument',
                     function() {
 
                         var support_api = ['ATND', 'Doorkeeper', 'connpass', 'Zusaar'];
