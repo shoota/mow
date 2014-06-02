@@ -26,8 +26,11 @@ describe('mow',
         describe('find method', function(){
             it('findById', function(){
                 var atnd = new mow('ATND');
+                var response_json={};
                 atnd.findById('51779', function(err, body){
-                    console.log();
+                    body.should.not.be.empty;
+                    assert(false);
+                    done();
                 });
 
             });
