@@ -24,7 +24,13 @@ describe('mow',
         });
 
         describe('find method', function(){
-            it('findById');
+            it('findById', function(){
+                var atnd = new mow('ATND');
+                atnd.findById('51779', function(err, body){
+                    console.log();
+                });
+
+            });
         });
     }
 );
